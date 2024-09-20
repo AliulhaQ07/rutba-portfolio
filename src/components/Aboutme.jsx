@@ -1,5 +1,5 @@
 import { useState } from "react";
-import modal from "/src/assets/modal.jpg";
+import rutbaimg from "/src/assets/img.jpeg";
 
 const Aboutme = () => {
   // State to track the active section
@@ -68,26 +68,29 @@ const Aboutme = () => {
 
   return (
     <>
-      <div className="grid grid-cols-1 md:grid-cols-2 min-h-screen gap-4 mt-3 p-4 md:p-8">
+      <div
+        id="about"
+        className="grid grid-cols-1 md:grid-cols-2 min-h-screen gap-4 mt-3 p-4 md:p-8"
+      >
         {/* PICTURE */}
         <div className="hidden md:flex justify-center">
           <img
-            className="h-[40vh] md:h-[60vh] lg:h-[70vh] w-auto rounded"
-            src={modal}
+            className="h-[40vh] md:h-[50vh] lg:h-[60vh] w-auto rounded"
+            src={rutbaimg}
             alt="Profile"
           />
         </div>
 
         {/* PERSONAL INFO */}
         <div className="flex flex-col justify-start px-4 md:px-16 items-start font-Montserrat font-normal">
-          <h1 className="text-3xl md:text-4xl lg:text-6xl mb-3 font-LuckiestGuy">
+          <h1 className="text-3xl md:text-4xl lg:text-5xl mb-3 font-LuckiestGuy">
             ABOUT ME
           </h1>
-          <h5 className="text-xs md:text-base lg:text-2xl">
-            Hello! I'm Rutba Chaudhary with a passion for tech-industry. With a
-            background in Computer Science Engineering. Throughout my career, I
-            have honed my skills in web development and content writing. My
-            journey began at Institute of Management Sciences.
+          <h5 className="text-xs md:text-base lg:text-xl">
+            Hello! I'm Rutba Ali Khan with a passion for tech-industry. With a
+            background in Computer Science. Throughout my career, I have honed
+            my skills in web development and Management. My journey began at
+            Institute of Management Sciences.
           </h5>
 
           {/* BUTTONS TO NAVIGATE */}
