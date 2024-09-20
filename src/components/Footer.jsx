@@ -67,7 +67,7 @@ const Footer = () => {
           {/* Download CV Button */}
           <div className="flex flex-col justify-center md:justify-start lg:justify-end">
             <button className="bg-indigo-500 hover:bg-indigo-600 text-white py-2 px-4 rounded mt-4 md:mt-0 lg:mt-0 w-full md:w-auto">
-              <a href="/cv.pdf" download>
+              <a href="/src/assets/Rutba-Ali-Resume.pdf" download>
                 Download CV
               </a>
             </button>
@@ -76,7 +76,7 @@ const Footer = () => {
 
         {/* Footer bottom text */}
         <div className="mt-8 text-center text-gray-500">
-          <p>&copy; 2024 Rutba Chaudhary. All rights reserved.</p>
+          <p>&copy; 2024 Rutba Ali Khan. All rights reserved.</p>
         </div>
       </div>
     </footer>

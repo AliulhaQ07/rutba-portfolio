@@ -10,18 +10,14 @@ const Navbar = () => {
       name: "ABOUT",
       link: "#about",
     },
+
     {
       id: 3,
-      name: "SERVICES",
-      link: "#services",
-    },
-    {
-      id: 4,
       name: "PORTFOLIO",
       link: "#portfolio",
     },
     {
-      id: 5,
+      id: 4,
       name: "CONTACT",
       link: "#contact",
     },
